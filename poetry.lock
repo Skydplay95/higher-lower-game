@@ -1,0 +1,15 @@
+[[package]]
+name = "plane-war"
+version = "1.0"
+description = "飞机大战"
+category = "main"
+optional = false
+python-versions = "*"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "2f533a4e009c45522827e3edefe9dec4df8115b4e33e4cd9f2733b04c9e70bd5"
+
+[metadata.files]
+plane-war = []
