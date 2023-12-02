@@ -4,6 +4,10 @@ from replit import clear
 #import data
 from game_data import data
 
+#import logo and vs
+from art import vs
+from art import logo
+
 #global variable to keep track of user good answer
 COUNT = 0
 
@@ -54,11 +58,14 @@ guess_wrong = False
 #while loop to continue to play the game after a good guess and stop it after a bad one
 while not guess_wrong:
 
+    #print logo
+    print(logo)
+
     #get the resume of celebrity and print it
     resume = resume_personnality(person_a)
     print(f"Compare A: {resume}")
     #print the Versus art
-
+    print(vs)
     resume = resume_personnality(person_b)
     print(f"Against B: {resume}")
 
